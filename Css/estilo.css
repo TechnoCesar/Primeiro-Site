@@ -1,0 +1,11 @@
+h1 {
+    color :rgb(61, 35, 85);
+    font-size: 2rem;
+    border-style: dashed;
+    border-color: rgb(7, 7, 10);
+}       
+
+* {
+    font-family: Arial, sans-serif;
+    color: #333;
+}

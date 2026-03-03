@@ -8,6 +8,15 @@ h1 {
     background-color: #466585;
 }       
 
+body {
+    background-color: #c5b5b563;
+}
+
+fieldset {
+    background-color: #ffffffe1;
+}
+
+
 * {
     font-family: Arial, sans-serif;
     color: #2e2222;
@@ -35,4 +44,19 @@ nav ul {
     padding: 0;            
     display: flex;         
     gap: 20px;   
+}
+
+#esquerda {
+color: #2e2222;
+width: 45%;
+height: 300px;
+float: left;
+
+}
+
+#direita {
+color: white;
+width: 45%;
+height: 300px;
+float: right;
 }

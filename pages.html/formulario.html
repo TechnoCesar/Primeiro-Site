@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Css/estilo.css">
+    </head>
+    <body>
+        <form name="cadastro_de_cliente" method="post" action="grava.jsp">
+            
+            <fieldset>
+                <legend>Cadastro</legend> 
+
+                <label for="txtnome">Nome:</label>
+                    <input type="text" id="txtnome" name="txtnome" maxlength="30" />
+        
+                <br />             
+                <label for="txtsenha">Senha:</label>
+                    <input type="password" id="txtsenha" name="txtsenha" />
+
+                <br />
+                <label for="txtemail">E-mail:</label>       
+                    <input type="text" id="txtemail" name="txtemail" maxlength="45" />
+                
+                <br />
+                Mensagem: <br />
+                    <textarea name="txtmensagem" cols="30" rows="7"></textarea>
+                    
+                <br />
+                <label>Estado:</label>
+                <select name="estado" id="estado">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SC">Santa Catarina</option>
+                </select> 
+
+                <br />               
+                <label>Pagamento:</label>
+                    <input type="radio" value="1" name="pgto" />Á vista
+                    <input type="radio" value="2" name="pgto" />3X
+                    <input type="radio" value="3" name="pgto" />6X
+
+                <br />
+                Revistas:
+                    <input type="checkbox"  name="revista" value="info" />Info
+                    <input type="checkbox"  name="revista" value="info" />Exame
+                    <input type="checkbox"  name="revista" value="info" />Veja
+               
+                <br>
+                    <input type="submit" value="Salvar" />
+                    <input type="reset" value="Limpar" />
+            </fieldset>
+        </form>
+        <nav>
+            <li><a href="/index.html">Inicio</a></li>
+        </nav>
+    </body>
+</html>

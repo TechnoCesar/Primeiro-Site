@@ -1,11 +1,38 @@
 h1 {
-    color :rgb(61, 35, 85);
+    color :rgb(1, 1, 2);
     font-size: 2rem;
     border-style: dashed;
     border-color: rgb(7, 7, 10);
+    justify-content: center;
+    display: flex;
+    background-color: #466585;
 }       
 
 * {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #2e2222;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #466585 ;
+}
+
+nav a {
+    text-decoration: none; 
+    color: darkblue;       
+    font-weight: bold;     
+    padding: px;
+}
+    
+nav a:hover {
+    background-color: #b6afaf;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;            
+    display: flex;         
+    gap: 20px;   
 }

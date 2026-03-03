@@ -17,6 +17,7 @@ O projeto está organizado em pastas para facilitar a manutenção:
 ## 🛠️ Tecnologias
 - HTML5
 - Git e GitHub
+- CSS
 
 ---
 *Este projeto está em constante evolução conforme vou aprendendo novas aulas!* 🚀
